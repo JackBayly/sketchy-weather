@@ -83,7 +83,7 @@ function change() {
 
   let search = document.getElementById("search").value;
 
-  fetch('http://api.openweathermap.org/data/2.5/weather?q=' + search + ',&APPID=3306ebfa3212bf7b92e231e31cbfe306&units=metric', { mode: 'cors' })
+  fetch('https://api.openweathermap.org/data/2.5/weather?q=' + search + ',&APPID=3306ebfa3212bf7b92e231e31cbfe306&units=metric', { mode: 'cors' })
     .then(function (response) {
       return response.json();
 
