@@ -1,6 +1,6 @@
 # Sketchy Weather
 <p>A weather app with a very professional-looking UI built with HTML, CSS, and JavaScript. Although, the mockup was meant to be a first draft, it made me laugh to have the UI look like a kindergardener did it, i.e. sketchy. So I went for it. Most of the images in the final version come from my first mockup pictured below.</p>
-<p>Here's a live demo: -coming soon-</p>
+<p>Here's a live demo: https://jackbayly.github.io/sketchy-weather/</p>
 <h2>Things Learned/Practiced</h2>
 <ul>
   <li>Using APIs (e.g. <a href="https://openweathermap.org/">OpenWeatherMap</a> and the <a href="https://developers.giphy.com/">Gify Api</a>)</li>
