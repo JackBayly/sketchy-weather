@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+#container {
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+display: flex;
+flex-direction:column;
+
+}
+
+#graphics {
+    height: 60%;
+    width: 100%;
+    background-color: blue;
+}
+#controls {
+    height: 45%;
+    width: 100%;
+    background-color: brown;
+
+}
+.row {
+padding: 10px;
+display: flex;
+
+}
+input,select {
+    padding: 10px;
+    width: 80%;
+}
+label {
+    width: 20%;
+    padding: 10px;
+
+}
+#render {
+    padding: 10px;
+}
+.row-btn {
+    display: flex;
+    
+    justify-content: center;
+   
+}

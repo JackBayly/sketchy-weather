@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchy Weather</title>
+    <link rel="stylesheet" href="sketchy.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="graphics">
+            <div id="report"></div>
+            <div id="captions"></div>
+            <div id="weather-data"></div>
+        </div>
+        <div id="controls">
+            <form action="">
+                <div class="row">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" placeholder="Atlanta">
+                </div>
+                <div class="row">
+                    <label for="tone">Tone</label>
+                    <select id="tone" name="tone">
+                        <option value="zen">Zen</option>
+                        <option value="laconic">Laconic</option>
+                        <option value="haiku">Haiku</option>
+                        <option value="absurd">Absurd</option>
+                        <option value="lovecraftian">Lovecraftian</option>
+                        <option value="jokey">Jokey</option>
+                        <option value="nonsequitor">Non-sequitor</option>
+                    </select><br><br>
+                </div>
+                <div class="row">
+                    <label for="style">Style</label>
+                    <select id="style" name="style">
+                        <option value="sketchy">Sketchy</option>
+                        <option value="random-gif">Random GIF</option>
+                    </select><br><br>
+                </div>
+                <div class="row-btn">
+                    <button id="render">Get Forecast</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
